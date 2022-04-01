@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BodyMassIndex msg="Cálculo do IMC" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BodyMassIndex from "./components/BodyMassIndex.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    BodyMassIndex,
+  },
+};
 </script>
 
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 40px 0 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
